@@ -17,20 +17,49 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
           <ul>
-            <li>HTML,Hypertext Markup Language, is used to create the structure of a webpage. It is made up of elements which work together to provide content and
+            <li>HTML, Hypertext Markup Language, is used to create the structure of a webpage. It is made up of elements which work together to provide content and
             the basic framework for all pages on the web.</li>
             <li>An element is a type of content on a webpage such as: text elements, image elements, header elements, and list elements.</li>
-            <li>HTML elements are composed of an opening and closing tag represented with angle brackets. These tags contain everything we want to include in the element. This can contain content and other nested elements.</li>
-            <li>The head element contains information or metadata, that helps the browser to render the page correctly. Elements included within the head are not visible when the user looks at a webpage. </li>
-            <li>The body element contains the content that is shown to the user. All the elements that we want the user to see and interact with must be placed inside this element.</li>
+            <li>An element refers to the entire element from opening tag to closing tag, A tag refers only to what appears inside the angle brackets.</li>
+            <li>HTML elements are composed of an opening and closing tag represented with angle brackets. 
+              <ul>
+                <li>These tags contain everything we want to include in the element. This can contain content and other nested elements.</li>
+              </ul>
+            <li>The head element contains information or metadata, that helps the browser to render the page correctly.</li>
+              <ul>
+                <li>Elements included within the head are not visible when the user looks at a webpage.</li>
+              </ul>
+            <li>The body element contains the content that is shown to the user.</li>
+              <ul>
+                <li>All the elements that we want the user to see and interact with must be placed inside this element.</li>
+              </ul>
+            <li>&lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; and &lt;h6&gt; are visible elements that represent the level of heading a given text block represents. Use heading tags in order from &lt;h1&gt; to &lt;h6&gt;</li>
+            <li>The &lt;p&gt; element represents a paragraph or block of text.</li>
+            <li>&lt;ul&gt; &lt;ol&gt; and &lt;li&gt; are elements which represent unordered(bulleted) lists, ordered(numbered) lists, and list items.</li>
+            <li>The &lt;img&gt; element contains information about images that are displayed on the webpage.</li>
+            <li>The &lt;br&gt; element creates a line of empty space, or a line break between two blocks of content</li>
           </ul>
       </section>
 
       <section class="card" id="css-section">
         <h2>CSS</h2>
           <ul>
-            <li>A margin indicates how much space we want around the outside of an element.</li>
-            <li>A padding indicates how much space we want around the content inside an element.</li>
+            <li>CSS, Cascading Style Sheets, is a stylesheet language used to define the color, aesthetics, visual layout, and organization of a webpage. CSS is used to define style rules for specific elements of an HTML page and format them using a wide range of style options. </li>
+            <li>CSS works by associating rules with HTML elements. CSS rules contain a selector and a declaration</li>
+              <ul>
+                <li>Selectors indicates which element the rule applies to.</li>
+                <li>Declarations indicate how the element referred to in the selector should be styled.</li>
+              </ul>
+            <li>CSS declarations sit inside curly brackets and are made up of a property and a value.</li>
+              <ul>
+                <li>Properties indicate aspects of the element you want to change.</li>
+                <li>Values specify the settings you want to use for the chosen properties. For example, specifying a color propery, the value is the color you want the text in the element to be. </li>
+              </ul>
+            <li>Examples of CSS properties include:</li>
+              <ul>
+                <li>margin, which indicates how much space we want around the outside of an element.</li>
+                <li>padding, which indicates how much space we want around the content inside an element.</li>
+              </ul>
             <li>We can combine two selectors into a single CSS rule with a comma, allowing the declarations to affect both selectors.</li>
             <li>Class attributes allow us to share a CSS rule to any element we choose by assigning the rule to a class attribute with a
             class selector.</li>
@@ -40,19 +69,35 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
           <ul>
-            <li>The git command must precede every git statement.</li>
-            <li>The checkout command is to move the working branch to a new branch.</li>
-            <li>git status: checks what branch we are currently in.</li>
-            <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
-            <li>The add command adds modifications in the current working branch to the staging area.</li>
-            <li>The -A flag indicates that we want to add all changes.</li>
+            <li>Git is a software that allows you to keep track of changes made to a project over time. Git works by recording the changes you make to a project, storing those changes, and allowing you to reference them as needed.</li>
+            <li>A Git project can be thought of as having three parts.</li>
+              <ol>
+                <li>A Working Directory: where you will be doing all the work: creating, editing, deleting and organizing files.</li>
+                <li>A Staging Area: where you will list changes you make to the working directory.</li>
+                <li>A Repository: where Git permanently stores those changes as different versions of the project.</li>
+              </ol>
+            <li>Git commands to use to help keep track of changes made to a project: (note: the git command must precede every git statement)</li>
+              <ul>
+                <li>git status: checks what branch we are currently in.</li>
+                <li>git add: adds modifications in the current working branch to the staging area.</li>
+                <li>git add -A: to stage all changes in the repository.</li>
+                <li>git add commit -m: to create a new commit with the changes that have been added to the staging area. The -m is followed by a message in quotes describing what changes the commit contains.</li>
+                <li>git pull origin branch-name: is used to fetch changes from a remote repository's branch and merge them into your current branch.  </li>
+                <li>git push origin branch-name: is used to upload the local repository content to a remote repository.</li>
+                <li>git checkout: to move from the working branch to a new branch.</li>
+                <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+              </ul>
           </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
           <ul>
+            <li>JavaScript is a programming language that adds interactivity to your website.</li>
             <li>Variables are containers that store values.</li>
+              <ul>
+                <li>You start by declaring a variable with the "let" keyword.</li>
+              </ul>
             <li>Comments are snippets of text that can be added along with code.</li>
             <li>An operator is a mathematical symbol that produces a result based on to values or variables.</li>
             <li>Conditionals are code structures used to test if an expression returns true or not.</li>
